@@ -24,7 +24,7 @@ h2{
 }
 .link-button{
     text-decoration: none;
-    background-image: linear-gradient(orange, tomato);
+    background-image: linear-gradient(45deg, lightsalmon, tomato);
     color: white;
     font-weight: 700;
     padding: 10px 40px;
@@ -55,14 +55,17 @@ h2{
 }
 #web-dev-experience{
     border-left: 7px solid;
-    border-image: linear-gradient(blue, cyan);
+    border-image: linear-gradient(180deg, blue, cyan);
     border-image-slice: 1;
 }
 #full-stack-experience{
     border-left: 7px solid;
-    border-image: linear-gradient(purple, tomato);
+    border-image: linear-gradient(180deg, purple, tomato);
     border-image-slice: 1;
 }
 footer p{
     text-align: center;
+}
+p{
+    color: dimgray;
 }
